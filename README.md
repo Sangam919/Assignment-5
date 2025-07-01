@@ -1,6 +1,6 @@
-Week 5 Assignment - Data Engineering
+# Week 5 Assignment - Data Engineering
 
-Tasks Completed
+## Tasks Completed
 1. Extracted data from SQLite database (`company.db`) to CSV, Parquet, and JSON formats.
 2. Implemented automation with:
    - Scheduled trigger (every 5 minutes using `schedule` library).
@@ -8,7 +8,7 @@ Tasks Completed
 3. Copied entire database to `backup_company.db`.
 4. Performed selective table/column extraction based on a configuration.
 
-How to Run
+## How to Run
 1. Install dependencies:
-   powershell
-  pip install pandas pyarrow schedule watchdog
+   ```powershell
+   pip install pandas pyarrow schedule watchdog
